@@ -1,0 +1,64 @@
+body {
+    background-color: #eeeeee;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.middle {
+    box-sizing: border-box;
+    background-color: white;
+    width: 100%;
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    box-shadow: grey 2px 2px 2px;
+}
+
+.link {
+    margin: 1em auto;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    border-radius: 5px;
+    color: black;
+    background-color: #e1c05d;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    background-color: #f3c44f;
+}
+
+.branding {
+    align-content: center;
+}
+.logo {
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 3em;
+}
+
+@media (min-width: 300px) {
+    .middle {
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}
+
+@media (min-width: 450px) {
+    .middle {
+        min-width: 300px;
+        max-width: 400px;
+    }
+}
