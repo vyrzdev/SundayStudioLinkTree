@@ -1,7 +1,7 @@
 body {
     background-color: #eeeeee;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Andika New Basic', sans-serif;
 }
 
 
@@ -12,13 +12,18 @@ body {
     padding: 1em;
     padding-top: 2em;
     padding-bottom: 2em;
-    box-shadow: grey 2px 2px 2px;
+    /*
+    box-shadow: rgba(50, 50, 71, 1) 1px 4px 4px;
+    */
+    filter: drop-shadow(0px 4px 4px rgba(50, 50, 50, 10));
 }
 
 .link {
     margin: 1.5em auto;
     display: block;
     box-sizing: border-box;
+    font-weight: normal;
+    font-size: 13pt;
     width: 100%;
     padding: 1em;
     border-radius: 5px;
@@ -34,7 +39,7 @@ body {
 }
 
 .link:hover {
-    background-color: #e4ef0a;
+    background-color: #f6ca1d;
 }
 
 .branding {
