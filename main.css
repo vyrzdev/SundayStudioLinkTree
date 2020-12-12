@@ -22,7 +22,7 @@ body {
     width: 100%;
     padding: 1em;
     border-radius: 5px;
-    color: black;
+    color: #313639;
     background-color: #EFC10A;
     text-decoration: none;
     text-align: center;
@@ -34,7 +34,7 @@ body {
 }
 
 .link:hover {
-    background-color: #f3c44f;
+    background-color: #e4ef0a;
 }
 
 .branding {
